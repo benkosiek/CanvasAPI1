@@ -10,12 +10,11 @@ CanvasAPI is a command-line application designed to streamline interactions with
 ## **Features**
 
 ### **Canvas LMS Integration**
-- Retrieve all discussions or the most recent discussion from a course.
+- Retrieve the most recent discussion from a course.
 - Access and process course files, sorted by creation date.
 
 ### **ChatGPT API Integration**
 - Send prompts based on Canvas data to ChatGPT and retrieve responses.
-- Post AI-generated responses directly back to Canvas discussions.
 
 ---
 
@@ -35,9 +34,6 @@ CanvasAPI is a command-line application designed to streamline interactions with
 ## **Usage**
 - Fetch the latest course file and discussion topic.
 - Use the file and discussion content to create a prompt for ChatGPT.
-- Post the generated AI response back to Canvas.
+- Recieve the ChatGPT generated response.
 
----
 
-## **Support**
-For questions or assistance, reach out to the repository maintainer.
