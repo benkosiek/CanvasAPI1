@@ -17,7 +17,7 @@ This Java application connects to your Canvas LMS, retrieves the most recent cou
 ## 🛠 Technologies Used
 
 - **Java 11+**
-- **OpenAI API** (`gpt-4o-mini`)
+- **OpenAI API** (`gpt-4o`)
 - **Canvas LMS API**
 - **Apache PDFBox** – for extracting text from PDF files
 - **org.json** – for parsing JSON responses
