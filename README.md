@@ -1,39 +1,35 @@
-# **CanvasAPI Integration**
+# 📚 Canvas AutoResponder with OpenAI (Java)
 
-## **Overview**
-CanvasAPI is a command-line application designed to streamline interactions with:
-1. **Canvas LMS**: Handles tasks like retrieving course discussions and files.
-2. **OpenAI ChatGPT**: Generates AI-driven responses based on course materials and prompts.
+This Java application connects to your Canvas LMS, retrieves the most recent course document and discussion post, processes the content using OpenAI's GPT API, and automatically replies to the post using a generated response.
 
 ---
 
-## **Features**
+## 🚀 Features
 
-### **Canvas LMS Integration**
-- Retrieve the most recent discussion from a course.
-- Access and process course files, sorted by creation date.
-
-### **ChatGPT API Integration**
-- Send prompts based on Canvas data to ChatGPT and retrieve responses.
-
----
-
-## **Getting Started**
-
-### **Prerequisites**
-- Java 22 or later.
-- Required libraries: org.json for handling JSON data and Apache PDFBox for PDF processing.
-
-### **Setup**
-1. Clone the repository and navigate to the project directory.
-2. Build the project using Maven.
-3. Run the application from the command line.
+- Fetches the latest uploaded **PDF** from a specified Canvas course
+- Retrieves the most recent **discussion post**
+- Uses **OpenAI's GPT API** to generate a contextual response
+- Automatically posts the response as a reply in Canvas
+- Designed for automated academic assistance
 
 ---
 
-## **Usage**
-- Fetch the latest course file and discussion topic.
-- Use the file and discussion content to create a prompt for ChatGPT.
-- Recieve the ChatGPT generated response.
+## 🛠 Technologies Used
+
+- **Java 11+**
+- **OpenAI API** (`gpt-4o-mini`)
+- **Canvas LMS API**
+- **Apache PDFBox** – for extracting text from PDF files
+- **org.json** – for parsing JSON responses
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+.
+├── Main.java         # Main controller to coordinate the process
+├── Canvas.java       # Handles Canvas API calls and PDF parsing
+├── ChatGPT.java      # Sends prompts and receives responses from OpenAI
 
 
